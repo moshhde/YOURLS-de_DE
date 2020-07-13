@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YOURLS 1.7\n"
 "POT-Creation-Date: 2020-07-12 21:30+0200\n"
-"PO-Revision-Date: 2020-07-12 21:36+0200\n"
+"PO-Revision-Date: 2020-07-13 18:39+0200\n"
 "Last-Translator: Mark Oliver Scholz <mos@zwanzigm.de>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -31,7 +31,7 @@ msgstr "URL"
 #: YOURLS/includes/functions-html.php:507
 #: YOURLS/includes/functions-html.php:645 YOURLS/yourls-infos.php:217
 msgid "Short URL"
-msgstr "Short URL"
+msgstr "Kurz-URL"
 
 #: YOURLS/admin/index.php:40 YOURLS/includes/functions-html.php:241
 msgid "All fields"
@@ -46,7 +46,7 @@ msgstr "Titel"
 
 #: YOURLS/admin/index.php:56 YOURLS/admin/index.php:132
 msgid "IP Address"
-msgstr "IP Adresse"
+msgstr "IP-Adresse"
 
 #: YOURLS/admin/index.php:60
 #, php-format
@@ -90,16 +90,13 @@ msgstr[0] "Zähle <strong>1</strong> Klick"
 msgstr[1] "Zähle <strong>%s</strong> Klicks"
 
 #: YOURLS/admin/index.php:305
-#, fuzzy, php-format
-#| msgid ""
-#| "Overall, tracking <strong class=\"increment\">%s</strong> links, <strong>"
-#| "%s</strong> clicks, and counting!"
+#, php-format
 msgid ""
 "Overall, tracking <strong class=\"increment\">%1$s</strong> links, <strong>"
 "%2$s</strong> clicks, and counting!"
 msgstr ""
-"Gesamt, tracking <strong class=\"increment\">%s</strong> Links, <strong>%s</"
-"strong> Klicks, und Anzah!"
+"Insgesamt werden <strong class=\"increment\">%s</strong> Links, <strong>%s</"
+"strong> Klicks verfolgt und gezählt!"
 
 #: YOURLS/admin/index.php:366
 msgid "No URL"
@@ -107,14 +104,13 @@ msgstr "Keine URL"
 
 #: YOURLS/admin/install.php:13
 msgid "PHP extension for PDO not found"
-msgstr ""
+msgstr "PHP-Erweiterung für PDO nicht gefunden"
 
 #: YOURLS/admin/install.php:18 YOURLS/admin/install.php:23
 #, php-format
 msgid "%s version is too old. Ask your server admin for an upgrade."
 msgstr ""
-"Version %s ist zu alt. Kontaktieren Sie Ihren Server Admin bezüglich eines "
-"Upgrades."
+"Version %s ist zu alt. Bitten Sie Ihren Server-Administrator um ein Upgrade."
 
 #: YOURLS/admin/install.php:29
 msgid "YOURLS already installed."
@@ -129,9 +125,9 @@ msgid ""
 "Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
 "have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
 msgstr ""
-"Datei <tt>.htaccess</tt> im YOURLS root Verzeichnis nicht beschreibbar. Sie "
-"müssen die Datei manuell editieren. Siehe <a href=\"http://yourls.org/"
-"htaccess\">hier</a>."
+"Konnte die Datei <tt>.htaccess</tt> im YOURLS-Stammverzeichnis nicht "
+"erstellen. Sie müssen die Datei manuell editieren. Siehe <a href=\"http://"
+"yourls.org/htaccess\">hier</a>."
 
 #: YOURLS/admin/install.php:55 YOURLS/admin/install.php:76
 msgid "Install YOURLS"
@@ -173,15 +169,13 @@ msgstr[0] "%s Plugin"
 msgstr[1] "%s Plugins"
 
 #: YOURLS/admin/plugins.php:76
-#, fuzzy, php-format
-#| msgid ""
-#| "You currently have <strong>%s</strong> installed, and <strong>%s</strong> "
-#| "activated"
+#, php-format
 msgid ""
 "You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
 "strong> activated"
 msgstr ""
-"Es sind <strong>%s</strong> installiert, <strong>%s</strong> davon aktiviert"
+"Es sind <strong>%1$s</strong> installiert und <strong>%2$s</strong> davon "
+"aktiviert"
 
 #: YOURLS/admin/plugins.php:81
 msgid "Plugin Name"
@@ -205,7 +199,7 @@ msgstr "Aktion"
 
 #: YOURLS/admin/plugins.php:110
 msgid "(no info)"
-msgstr ""
+msgstr "(keine Informationen)"
 
 #: YOURLS/admin/plugins.php:120
 msgid "Deactivate"
@@ -222,7 +216,7 @@ msgstr "Plugin Datei Speicherort: %s"
 
 #: YOURLS/admin/plugins.php:152
 msgid "Toggle active/inactive plugins"
-msgstr "Wähle aktive/inaktive Plugins"
+msgstr "Aktive/inaktive Plugins umschalten "
 
 #: YOURLS/admin/plugins.php:159
 msgid ""
@@ -232,7 +226,7 @@ msgid ""
 msgstr ""
 "Sollte nach Aktivierung eines Plugin etwas schief gehen und YOURLS nicht "
 "mehr erreichbar sein, benennen sie das Verzeichnis des Plugin einfach um "
-"oder löschen es, oder geben Sie der Plugin-Datei einen anderen Name als "
+"oder löschen es, oder geben Sie der Plugin-Datei einen anderen Namen als "
 "<code>plugin.php</code>."
 
 #: YOURLS/admin/plugins.php:161
@@ -240,36 +234,28 @@ msgid "More plugins"
 msgstr "Mehr Plugins"
 
 #: YOURLS/admin/plugins.php:163
-#, fuzzy
-#| msgid ""
-#| "For more plugins, head to the official <a href=\"http://yourls.org/"
-#| "pluginlist\">Plugin list</a>."
 msgid ""
 "For more plugins, head to the official <a href=\"http://yourls.org/awesome"
 "\">Plugin list</a>."
 msgstr ""
-"Mehr Plugins erhalten Sie über die offizielle Seite <a href=\"http://yourls."
-"org/pluginlist\">Plugin list</a>."
+"Mehr Plugins erhalten Sie über die offizielle <a href=\"http://yourls.org/"
+"pluginlist\">Plugin-Liste</a>."
 
 #: YOURLS/admin/tools.php:6
 msgid "Cool YOURLS Tools"
-msgstr "Coole YOURLS Tools"
+msgstr "Coole YOURLS-Tools"
 
 #: YOURLS/admin/tools.php:13
 msgid "Bookmarklets"
 msgstr "Bookmarklets"
 
 #: YOURLS/admin/tools.php:15
-#, fuzzy
-#| msgid ""
-#| "YOURLS comes with <span>four</span> handy <span>bookmarklets</span> for "
-#| "easier link shortening."
 msgid ""
 "YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
 "and sharing."
 msgstr ""
-"YOURLS wird mit <span>vier</span> praktischen <span>bookmarklets</span> "
-"ausgeliefert für leichtes Link shortening."
+"YOURLS bringt praktische <span>Bookmarklets</span> für leichtes Link kürzen "
+"und teilen mit."
 
 #: YOURLS/admin/tools.php:17
 msgid "Standard or Instant, Simple or Custom"
@@ -280,23 +266,23 @@ msgid ""
 "The <span>Standard Bookmarklets</span> will take you to a page where you can "
 "easily edit or delete your brand new short URL."
 msgstr ""
-"Das <span>Standard Bookmarklets</span> leitet sie zur Seite weiter wo Sie "
-"ganz einfach neue Short URL editieren oder löschen können."
+"Die <span>Standard-Bookmarklets</span> leiten Sie zu einer Seite weiter wo "
+"Sie ganz einfach eine neue Kurz-URL bearbeiten oder löschen können."
 
 #: YOURLS/admin/tools.php:22
 msgid ""
 "The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
 "the page you are viewing."
 msgstr ""
-"Über die <span>direkt Bookmarklets</span> können Sie Short URL anlegen ohne "
-"die aktuelle Seite zu verlassen auf der Sie sich befinden."
+"Über die <span>Direkt-Bookmarklets</span> können Sie eine Kurz-URL anlegen "
+"ohne die Seite zu verlassen auf der Sie sich befinden."
 
 #: YOURLS/admin/tools.php:24
 msgid ""
 "The <span>Simple Bookmarklets</span> will generate a short URL with a random "
 "or sequential keyword."
 msgstr ""
-"Die <span>einfachen Bookmarklets</span> generieren einen Short URL mit einem "
+"Die <span>einfachen Bookmarklets</span> erzeugen eine Kurz-URL mit einem "
 "zufälligen oder fortlaufenden Schlüsselwort."
 
 #: YOURLS/admin/tools.php:26
@@ -304,8 +290,8 @@ msgid ""
 "The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
 "keyword first."
 msgstr ""
-"Das <span>Benutzerspezifische Schlüsselwort Bookmarklets</span> wird Sie "
-"zuerst zur Eingabe eines Schlüsselwortes auffordern."
+"Die <span>Benutzerdefinierten Schlüsselwort Bookmarklets</span> wird Sie zur "
+"Eingabe eines Schlüsselwortes auffordern."
 
 #: YOURLS/admin/tools.php:30
 msgid ""
@@ -315,7 +301,7 @@ msgid ""
 msgstr ""
 "Wenn Sie eine Beschreibung in den zu kürzenden Link einfügen wollen, klicken "
 "Sie einfach <span>Text auswählen</span> auf der Seite bevor Sie auf den "
-"Bookmarklet-Link geklickt haben."
+"Bookmarklet-Link klicken."
 
 #: YOURLS/admin/tools.php:33
 msgid "The Bookmarklets"
@@ -324,8 +310,8 @@ msgstr "Die Bookmarklets"
 #: YOURLS/admin/tools.php:37 YOURLS/admin/tools.php:186
 msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
 msgstr ""
-"Klicken und bewegen Sie die Links in Ihr Toolbar (oder Rechtsklick + "
-"Bookmark)"
+"Klicken und ziehen Sie die Links in Ihre Toolbar (oder rechts klicken und "
+"als Lesezeichen setzen)"
 
 #: YOURLS/admin/tools.php:43
 msgid "Standard (new page)"
@@ -341,7 +327,7 @@ msgstr "Einfach"
 
 #: YOURLS/admin/tools.php:80
 msgid "Shorten"
-msgstr "Shorten"
+msgstr "Kürzen"
 
 #: YOURLS/admin/tools.php:105
 msgid "Instant Shorten"
@@ -353,49 +339,49 @@ msgstr "Benutzerdefiniertes Schlüsselwort"
 
 #: YOURLS/admin/tools.php:146
 msgid "Custom shorten"
-msgstr "Benutzerspezifisch shorten"
+msgstr "Benutzerdefiniert kürzen"
 
 #: YOURLS/admin/tools.php:174
 msgid "Instant Custom Shorten"
 msgstr "Direkt benutzerdefiniert kürzen"
 
 #: YOURLS/admin/tools.php:183
-#, fuzzy
-#| msgid "Bookmarklets"
 msgid "Social Bookmarklets"
-msgstr "Bookmarklets"
+msgstr "Social Bookmarklets."
 
 #: YOURLS/admin/tools.php:185
 msgid "Create a short URL and share it on social networks, all in one click!"
 msgstr ""
+"Erstellen Sie eine kurze URL und teilen Sie sie in sozialen Netzwerken, "
+"alles mit einem Klick!"
 
 #: YOURLS/admin/tools.php:188
-#, fuzzy
-#| msgid "Shorten The URL"
 msgid "Shorten and share:"
-msgstr "Shorte die URL"
+msgstr "Kürze die URL:"
 
 #: YOURLS/admin/tools.php:213
 msgid "YOURLS &amp; Facebook"
-msgstr ""
+msgstr "YOURLS &amp; Facebook"
 
 #: YOURLS/admin/tools.php:244
 msgid "YOURLS &amp; Twitter"
-msgstr ""
+msgstr "YOURLS &amp; Twitter"
 
 #: YOURLS/admin/tools.php:276
 msgid "YOURLS &amp; Tumblr"
-msgstr ""
+msgstr "YOURLS &amp; Tumblr"
 
 #: YOURLS/admin/tools.php:281
 msgid ""
 "<strong>Note:</strong> depending on server settings, bookmarklets might fail "
 "on websites with <em>https</em>."
 msgstr ""
+"<strong>Hinweis:</strong> Je nach Servereinstellungen können Lesezeichen auf "
+"Websites mit <em>https</em>fehlschlagen."
 
 #: YOURLS/admin/tools.php:285
 msgid "Prefix-n-Shorten"
-msgstr "Prefix-n-Shorten"
+msgstr "Prefix-n-kürzen"
 
 #: YOURLS/admin/tools.php:287
 #, php-format
@@ -404,10 +390,10 @@ msgid ""
 "browser's address bar, add \"<span>%s</span>\" to the beginning of the "
 "current URL (right before its 'http://' part) and hit enter."
 msgstr ""
-"Während dem Aufruf einer Seite können Sie auch den Präfix einer Original URL "
-"über Ihre Adressleiste hinzufügen. Stellen Sie einfach \"<span>%s</span>\" "
-"voran, vor Ihre aktuelle URL (vor 'http://' Bereich) und drücken Sie die "
-"Eingabetaste."
+"Wenn Sie eine Seite anzeigen, können Sie auch ihre vollständige URL "
+"voranstellen: Gehen Sie einfach zur Adressleiste Ihres Browsers, fügen Sie "
+"\"<span>%s</span>\" an den Anfang der aktuellen URL (direkt vor ihrem "
+"'http://'-Teil) und drücken Sie Enter."
 
 #: YOURLS/admin/tools.php:290
 msgid ""
@@ -418,19 +404,19 @@ msgstr ""
 
 #: YOURLS/admin/tools.php:292
 msgid " (which seems to be the case here)"
-msgstr " (welches der Fall hier sein sollte)"
+msgstr " (welches hier der Fall zu sein scheint)"
 
 #: YOURLS/admin/tools.php:298
 msgid "Secure passwordless API call"
-msgstr "Sicherer passwortloser API Aufruf"
+msgstr "Sicherer passwortloser API-Aufruf"
 
 #: YOURLS/admin/tools.php:301
 msgid ""
 "YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
 "<tt>password</tt> parameters."
 msgstr ""
-"YOURLS erlaubt API Aufrufe nach dem alten Prinzip, gemäß <tt>username</tt> "
-"und <tt>password</tt> Parameter."
+"YOURLS erlaubt API-Aufrufe nach dem altmodischen Prinzip mittels "
+"<tt>username</tt> und <tt>password</tt> Parameter."
 
 #: YOURLS/admin/tools.php:303
 msgid ""
@@ -438,35 +424,35 @@ msgid ""
 "make API calls without using your login or your password, using a secret "
 "signature token."
 msgstr ""
-"Wenn Sie nicht möchten die Zugangsdaten an andere weiterzugeben, können Sie "
-"Zugriffe ebenso über API Aufrufe mit einer geheimen Signatur anstatt "
-"Benutzernamen und Passwort steuern."
+"Wenn Sie Bedenken haben, Ihre Anmeldedaten in die freie Wildbahn zu "
+"schicken, können Sie mit einem geheimen Signatur-Token auch API-Aufrufe ohne "
+"Ihre Anmeldung oder Ihr Kennwort durchführen."
 
 #: YOURLS/admin/tools.php:306
 #, php-format
 msgid "Your secret signature token: <strong><code>%s</code></strong>"
-msgstr "Ihr geheimer Signatur Token: <strong><code>%s</code></strong>"
+msgstr "Ihr geheimer Signatur-Token: <strong><code>%s</code></strong>"
 
 #: YOURLS/admin/tools.php:307
 msgid "(It's a secret. Keep it secret) "
-msgstr "(Dies ist geheim. Behalten Sie es geheim) "
+msgstr "(Es ist ein Geheimnis. Behalten Sie es geheim) "
 
 #: YOURLS/admin/tools.php:309
 msgid ""
 "This signature token can only be used with the API, not with the admin "
 "interface."
 msgstr ""
-"Der Signatur Token kann nur über die API-Schnittstelle verwendet werden und "
-"nicht über den Admin Bereich."
+"Der Signatur-Token kann nur mit der API-Schnittstelle verwendet werden, "
+"nicht über den Admin-Bereich."
 
 #: YOURLS/admin/tools.php:312
 msgid "Usage of the signature token"
-msgstr "Anwendungsbeispiel des Signatur Token"
+msgstr "Anwendung des Signatur-Token"
 
 #: YOURLS/admin/tools.php:313
 msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
 msgstr ""
-"Verwenden Sie einfach <tt>signature</tt> in Ihrer API Abfrage. Beispiel:"
+"Verwenden Sie einfach <tt>signature</tt> in Ihrer API-Abfrage. Beispiel:"
 
 #: YOURLS/admin/tools.php:317
 msgid "Usage of a time limited signature token"
@@ -496,7 +482,7 @@ msgstr "Diese URL ist nur für %s Sekunden gültig"
 #: YOURLS/admin/tools.php:333
 #, php-format
 msgid "See the <a href=\"%s\">Passwordless API</a> page on the wiki."
-msgstr ""
+msgstr "Siehe die <a href=\"%s\">Passwordless API</a>-Seite im Wiki."
 
 #: YOURLS/admin/tools.php:334
 #, php-format
@@ -559,7 +545,7 @@ msgstr "Upgrade"
 
 #: YOURLS/admin/upgrade.php:77
 msgid "Your installation is now up to date ! "
-msgstr "Deine Installation ist jetzt aktuell!"
+msgstr "Deine Installation ist jetzt aktuell! "
 
 #: YOURLS/admin/upgrade.php:78
 #, php-format
@@ -567,10 +553,9 @@ msgid "Go back to <a href=\"%s\">the admin interface</a>"
 msgstr "Zurück in <a href=\"%s\">den Admin Bereich</a>"
 
 #: YOURLS/includes/Database/YDB.php:164
-#, fuzzy
-#| msgid "DB config missing, or could not find DB class"
 msgid "Incorrect DB config, or could not connect to DB"
-msgstr "DB Konfiguration fehlt oder DB Klasse konnte nicht gefunden werden"
+msgstr ""
+"Konfiguration für die DB ist falsch oder keine Verbindung zur DB möglich"
 
 #: YOURLS/includes/Database/YDB.php:167 YOURLS/includes/class-mysql.php:16
 msgid "Fatal error"
@@ -579,22 +564,22 @@ msgstr "Fataler Fehler"
 #: YOURLS/includes/auth.php:53
 #, php-format
 msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
-msgstr ""
+msgstr "Konnte Passworte nicht automatisch verschlüsseln. Fehler war: \"%s\"."
 
 #: YOURLS/includes/auth.php:55
-#, fuzzy, php-format
-#| msgid "Please <a href=\"%s\">click here</a>"
+#, php-format
 msgid "<a href=\"%s\">Get help</a>."
-msgstr "Bitte <a href=\"%s\">hier klicken</a>"
+msgstr "<a href=\"%s\">Hilfe</a>."
 
 #: YOURLS/includes/auth.php:57
 #, php-format
 msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
 msgstr ""
+"<a href=\"%s\">Klicke hier</a>, um diese Meldung für eine Woche auszublenden."
 
 #: YOURLS/includes/class-mysql.php:16
 msgid "Incorrect DB config, please refer to documentation"
-msgstr ""
+msgstr "Falsche DB-Konfiguration, bitte Dokumentation beachten"
 
 #: YOURLS/includes/functions-auth.php:38
 msgid "Logged out successfully"
@@ -655,26 +640,21 @@ msgid "IP"
 msgstr "IP"
 
 #: YOURLS/includes/functions-html.php:247
-#, fuzzy
-#| msgid "Search"
 msgid "Search in"
-msgstr "Suche"
+msgstr "Suche in"
 
 #: YOURLS/includes/functions-html.php:249
-#, fuzzy, php-format
-#| msgid "Search for"
+#, php-format
 msgid "Search for %1$s in %2$s"
-msgstr "Suche nach"
+msgstr "Suche nach %1$s in %2$s"
 
 #: YOURLS/includes/functions-html.php:261
-#, fuzzy
-#| msgid "Short URL"
 msgid "Sort by"
-msgstr "Short URL"
+msgstr "Sortiert nach"
 
 #: YOURLS/includes/functions-html.php:264
 msgid "Ascending"
-msgstr "Aufsteigend "
+msgstr "Aufsteigend"
 
 #: YOURLS/includes/functions-html.php:265
 msgid "Descending"
@@ -682,24 +662,21 @@ msgstr "Absteigend"
 
 #: YOURLS/includes/functions-html.php:267
 msgid "Sort order"
-msgstr ""
+msgstr "Sortierreihenfolge"
 
 #: YOURLS/includes/functions-html.php:269
-#, fuzzy, php-format
-#| msgid "Order by"
+#, php-format
 msgid "Order by %1$s %2$s"
-msgstr "Sortiere nach"
+msgstr "Reihenfolge nach %1$s %2$s"
 
 #: YOURLS/includes/functions-html.php:274
-#, fuzzy
-#| msgid "Number of hits : %s"
 msgid "Number of rows to show"
-msgstr "Anzahl der Treffer : %s"
+msgstr "Anzahl der anzuzeigenden Reihen"
 
 #: YOURLS/includes/functions-html.php:275
 #, php-format
 msgid "Show %s rows"
-msgstr ""
+msgstr "Zeige %s Reihen"
 
 #: YOURLS/includes/functions-html.php:280
 msgid "more"
@@ -714,15 +691,13 @@ msgid "Show links with"
 msgstr "Zeige Links mit"
 
 #: YOURLS/includes/functions-html.php:284
-#, fuzzy
-#| msgid "Number of hits : %s"
 msgid "Number of clicks"
-msgstr "Anzahl der Treffer : %s"
+msgstr "Anzahl der Klicks"
 
 #: YOURLS/includes/functions-html.php:286
 #, php-format
 msgid "Show links with %1$s than %2$s clicks"
-msgstr ""
+msgstr "Zeige Links mit %1$s als %2$s Klicks "
 
 #: YOURLS/includes/functions-html.php:291
 msgid "before"
@@ -742,17 +717,16 @@ msgstr "Zeige erstellte Links"
 
 #: YOURLS/includes/functions-html.php:296
 msgid "Select a date"
-msgstr ""
+msgstr "Wählen Sie ein Datum"
 
 #: YOURLS/includes/functions-html.php:298
 msgid "Select an end date"
-msgstr ""
+msgstr "Wählen Sie ein Enddatum"
 
 #: YOURLS/includes/functions-html.php:300
-#, fuzzy, php-format
-#| msgid "Show links created"
+#, php-format
 msgid "Show links created %1$s %2$s %3$s %4$s"
-msgstr "Zeige erstellte Links"
+msgstr "Zeige erstellte Links %1$s %2$s %3$s %4$s"
 
 #: YOURLS/includes/functions-html.php:304
 msgid "Search"
@@ -778,10 +752,8 @@ msgid "&laquo; First"
 msgstr "&laquo; Erste"
 
 #: YOURLS/includes/functions-html.php:348
-#, fuzzy
-#| msgid "Go to First Page"
 msgid "Go to Last Page"
-msgstr "Gehe zur ersten Seite"
+msgstr "Gehe zur letzten Seite"
 
 #: YOURLS/includes/functions-html.php:348
 msgid "Last &raquo;"
@@ -909,26 +881,27 @@ msgstr "Tools"
 #: YOURLS/includes/functions-html.php:851
 #, php-format
 msgid "Page \"%1$s\" not found"
-msgstr ""
+msgstr "Seite \"%1$s\" nicht gefunden"
 
 #: YOURLS/includes/functions-html.php:851
 msgid "Not found"
-msgstr ""
+msgstr "Nicht gefunden"
 
 #: YOURLS/includes/functions-html.php:897
 #: YOURLS/includes/functions-html.php:902
 msgid "Today"
-msgstr ""
+msgstr "Heute"
 
 #: YOURLS/includes/functions-html.php:898
 #: YOURLS/includes/functions-html.php:903
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #: YOURLS/includes/functions-html.php:918
 #, php-format
 msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
 msgstr ""
+"<a href=\"%s\">YOURLS Version %s</a> ist verfügbar. Bitte aktualisieren!"
 
 #: YOURLS/includes/functions-html.php:973
 msgid "Drag to your toolbar!"
@@ -946,13 +919,11 @@ msgstr "Fehler beim erstellen der Tabelle '%s'."
 
 #: YOURLS/includes/functions-install.php:264
 msgid "Could not initialize options"
-msgstr ""
+msgstr "Konnte Einstellungen nicht initialisieren"
 
 #: YOURLS/includes/functions-install.php:268
-#, fuzzy
-#| msgid "Custom short URL"
 msgid "Could not insert sample short URLs"
-msgstr "Spezifischer Short URL"
+msgstr "Konnte Beispiel für Kurz-URLs nicht einfügen"
 
 #: YOURLS/includes/functions-install.php:272
 msgid "YOURLS tables successfully created."
@@ -1197,13 +1168,10 @@ msgid "ltr"
 msgstr "ltr"
 
 #: YOURLS/includes/functions-plugins.php:475
-#, fuzzy
-#| msgid "Could not find and deactivated plugin :"
-#| msgid_plural "Could not find and deactivated plugins :"
 msgid "Could not find and deactivate plugin :"
 msgid_plural "Could not find and deactivate plugins :"
-msgstr[0] "Plugin konnte nicht gefunden oder deaktiviert werden:"
-msgstr[1] "Plugins konnten nicht gefunden oder deaktiviert werden:"
+msgstr[0] "Plugin konnte nicht gefunden und deaktiviert werden:"
+msgstr[1] "Plugins konnten nicht gefunden und deaktiviert werden:"
 
 #: YOURLS/includes/functions-plugins.php:511
 msgid "Not a valid plugin file"
@@ -1214,11 +1182,10 @@ msgid "Plugin already activated"
 msgstr "Plugin wurde bereits aktiviert"
 
 #: YOURLS/includes/functions-plugins.php:527
-#, fuzzy, php-format
-#| msgid "Plugin generated expected output. Error was: <br/><pre>%s</pre>"
+#, php-format
 msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
 msgstr ""
-"Das Plugin hat eine unerwartete Ausgabe generiert: Fehler war: <br/><pre>%s</"
+"Das Plugin hat eine unerwartete Ausgabe erzeugt: Fehler war: <br/><pre>%s</"
 "pre>"
 
 #: YOURLS/includes/functions-plugins.php:552
@@ -1258,7 +1225,7 @@ msgstr "%s zur Datenbank hinzugefügt"
 
 #: YOURLS/includes/functions-shorturls.php:122
 msgid "Error saving url to database"
-msgstr ""
+msgstr "Fehler beim Speichern der URL in der Datenbank"
 
 #: YOURLS/includes/functions-shorturls.php:139
 #, php-format
@@ -1267,7 +1234,7 @@ msgstr "%s existiert bereits in der Datenbank"
 
 #: YOURLS/includes/functions-shorturls.php:314
 msgid "Long URL or Short URL cannot be blank"
-msgstr ""
+msgstr "Lange URL oder Kurz-URL dürfen nicht leer sein"
 
 #: YOURLS/includes/functions-shorturls.php:344
 msgid "Link updated in database"
@@ -1302,7 +1269,7 @@ msgstr "Zu schnell zu viele URLs hinzugefügt. Nicht so schnell bitte."
 
 #: YOURLS/includes/functions.php:567
 msgid "Too Many Requests"
-msgstr ""
+msgstr "Zu viele Anfragen"
 
 #: YOURLS/includes/functions.php:989
 msgid "Service temporarily unavailable"
@@ -1341,39 +1308,37 @@ msgstr ""
 
 #: YOURLS/tests/tests/l10n/formats.php:105
 msgid "omg"
-msgstr ""
+msgstr "omg"
 
 #: YOURLS/tests/tests/l10n/formats.php:106
 msgid "lol"
-msgstr ""
+msgstr "lol"
 
 #: YOURLS/tests/tests/l10n/formats.php:107
 msgid "wtf"
-msgstr ""
+msgstr "wtf"
 
 #: YOURLS/tests/tests/l10n/formats.php:108
 msgid "bye"
-msgstr ""
+msgstr "bye"
 
 #: YOURLS/tests/tests/l10n/translations.php:27
 #: YOURLS/tests/tests/l10n/translations.php:28
 #: YOURLS/tests/tests/l10n/translations.php:38
-#, fuzzy
-#| msgid "Shorten"
 msgid "Short"
-msgstr "Shorten"
+msgstr "Kurz"
 
 #: YOURLS/tests/tests/l10n/translations.php:47
 #: YOURLS/tests/tests/l10n/translations.php:48
 msgid "Untranslated string"
-msgstr ""
+msgstr "Nicht übersetzter Text"
 
 #: YOURLS/tests/tests/l10n/translations.php:68
 #: YOURLS/tests/tests/l10n/translations.php:69
 #: YOURLS/tests/tests/l10n/translations.php:79
 #, php-format
 msgid "String with %s"
-msgstr ""
+msgstr "Text mit %s"
 
 #: YOURLS/tests/tests/l10n/translations.php:89
 #: YOURLS/tests/tests/l10n/translations.php:99
@@ -1382,16 +1347,14 @@ msgstr ""
 #: YOURLS/tests/tests/l10n/translations.php:106
 #, php-format
 msgid "Hello %s you are %s"
-msgstr ""
+msgstr "Hallo %s, Sie sind %s"
 
 #: YOURLS/tests/tests/l10n/translations.php:115
 #: YOURLS/tests/tests/l10n/translations.php:116
 #: YOURLS/tests/tests/l10n/translations.php:135
 #: YOURLS/tests/tests/l10n/translations.php:136
-#, fuzzy
-#| msgid "Simple"
 msgid "Simple string"
-msgstr "Einfach"
+msgstr "Einfacher Text"
 
 #: YOURLS/tests/tests/l10n/translations.php:145
 #: YOURLS/tests/tests/l10n/translations.php:146
@@ -1400,8 +1363,8 @@ msgstr "Einfach"
 #, php-format
 msgid "1 item"
 msgid_plural "%s items"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 Element"
+msgstr[1] "%s Elemente"
 
 #: YOURLS/tests/tests/l10n/translations.php:158
 #: YOURLS/tests/tests/l10n/translations.php:159
@@ -1414,22 +1377,20 @@ msgstr[1] ""
 #, php-format
 msgid "1 spring"
 msgid_plural "%s springs"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 Quelle"
+msgstr[1] "%s Quellen"
 
 #: YOURLS/user/plugins/sample-toolbar/plugin.php:62
-#, fuzzy
-#| msgid "May"
 msgid "day"
 msgid_plural "days"
-msgstr[0] "Mai"
-msgstr[1] "Mai"
+msgstr[0] "Tag"
+msgstr[1] "Tage"
 
 #: YOURLS/user/plugins/sample-toolbar/plugin.php:67
 msgid "view"
 msgid_plural "views"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ansicht"
+msgstr[1] "Ansichten"
 
 #: YOURLS/yourls-infos.php:210
 #, php-format
@@ -1511,13 +1472,11 @@ msgid "Best day"
 msgstr "Bester Tag"
 
 #: YOURLS/yourls-infos.php:387
-#, fuzzy, php-format
-#| msgid "<strong>%s</strong> hit on %s"
-#| msgid_plural "<strong>%s</strong> hits on %s"
+#, php-format
 msgid "<strong>%1$s</strong> hit on %2$s"
 msgid_plural "<strong>%1$s</strong> hits on %2$s"
-msgstr[0] "<strong>%s</strong> Treffer am %s"
-msgstr[1] "<strong>%s</strong> Treffer am %s"
+msgstr[0] "<strong>%1$s</strong> Treffer am %2$s"
+msgstr[1] "<strong>%1$s</strong> Treffer am %2$s"
 
 #: YOURLS/yourls-infos.php:388 YOURLS/yourls-infos.php:450
 msgid "Click for more details"
